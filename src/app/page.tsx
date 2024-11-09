@@ -1,10 +1,8 @@
-// src/app/page.tsx
 import Image from 'next/image';
 
 export default function Home() {
   return (
     <div>
-      {/* Best selling courses section */}
       <section className="px-6 py-8">
         <h2 className="text-2xl font-semibold">Best selling courses in Web Development</h2>
         <div className="grid grid-cols-4 gap-6 mt-4">
@@ -19,7 +17,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Popular instructors section */}
       <section className="px-6 py-8 bg-gray-100">
         <h2 className="text-2xl font-semibold">Popular instructors in Web Development</h2>
         <div className="grid grid-cols-5 gap-6 mt-4">
@@ -33,7 +30,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Course list section */}
       <section className="px-6 py-8">
         <h2 className="text-2xl font-semibold">Courses</h2>
         <div className="grid grid-cols-4 gap-6 mt-4">
@@ -48,7 +44,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer section */}
       <footer className="px-6 py-8 bg-gray-900 text-white">
         <div className="flex justify-between">
           <div>
